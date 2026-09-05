@@ -3523,7 +3523,7 @@ ENEMY_TYPE_MAP = [
     ((100, 200, 255), "crystal_drake", 3, 1.0, 1200, 5000, 39, "all", "hexagon", False),
     ((30, 80, 20), "plague_bearer", 3, 0.5, 600, 3000, 38, "all", "pentagon", False),
     ((100, 180, 255), "storm_eagle", 2, 3.5, 700, 500, 40, "all", "triangle", False),
-    ((100, 20, [<65;63;9M80), "abomination", 5, 0.8, 1800, 8000, 41, "all", "hexagon", False),
+    ((100, 20, 80), "abomination", 5, 0.8, 1800, 8000, 41, "all", "hexagon", False),
     ((220, 210, 190), "bone_lord", 4, 1.2, 900, 3500, 38, "all", "pentagon", False),
     ((180, 0, 20), "blood_bat", 3, 3.0, 600, 800, 36, "all", "triangle", False),
     ((200, 180, 100), "sand_wraith", 2, 1.8, 500, 1200, 39, "sniper_only", "diamond", False),
@@ -3532,7 +3532,7 @@ ENEMY_TYPE_MAP = [
     ((10, 10, 20), "night_terror", 5, 2.8, 900, 2000, 40, "all", "diamond", False),
     ((150, 120, 0), "elder_dragon", 8, 0.5, 5000, 50000, 44, "all", "hexagon", False),
     ((200, 200, 150), "lich", 4, 1.0, 2000, 5000, 42, "all", "pentagon", False),
-    ((120, 0, 20),[<65;63;9M "doom_bringer", 6, 1.2, 2000, 6000, 43, "all", "hexagon", False),
+    ((120, 0, 20), "doom_bringer", 6, 1.2, 2000, 6000, 43, "all", "hexagon", False),
     ((20, 20, 100), "shadow_fiend", 4, 2.0, 1500, 4000, 41, "all", "diamond", False),
     ((200, 80, 0), "molten_titan", 8, 0.3, 8000, 100000, 46, "all", "hexagon", False),
     ((80, 80, 90), "doom_knight", 3, 0.7, 60, 150, 5, "all", "square", False),
@@ -3541,7 +3541,7 @@ ENEMY_TYPE_MAP = [
     ((200, 100, 255), "phase_shifter", 3, 1.8, 120, 200, 18, "sniper_only", "diamond", False),
     ((120, 70, 30), "war_mammoth", 5, 0.2, 300, 1500, 23, "all", "hexagon", False),
     ((20, 0, 40), "null_specter", 2, 2.5, 150, 300, 25, "sniper_only", "star", False),
-   [<65;63;9M[<65;63;9M[<65;63;9M ((255, 80, 30), "flame_imp", 2, 4.5, 80, -20, 27, "all", "triangle", False),
+    ((255, 80, 30), "flame_imp", 2, 4.5, 80, -20, 27, "all", "triangle", False),
     ((60, 160, 255), "storm_rider", 2, 3.2, 200, 500, 29, "all", "triangle", False),
     ((100, 200, 240), "frost_giant", 5, 0.1, 400, 8000, 31, "all", "hexagon", False),
     ((180, 0, 30), "blood_spawn", 3, 1.5, 200, 600, 33, "all", "circle", False),
@@ -3550,7 +3550,7 @@ ENEMY_TYPE_MAP = [
     ((210, 200, 180), "crypt_walker", 4, 0.8, 600, 2500, 43, "all", "pentagon", False),
     ((60, 70, 80), "dreadnought", 6, 0.25, 1000, 12000, 45, "all", "hexagon", True),
     ((15, 0, 35), "void_shade", 3, 2.5, 2000, 8000, 48, "sniper_only", "diamond", False),
-  [<65;63;9M  ((35, 35, 45), "obsidian_guardian", 6, 0.35, 2500, 18000, 49, "all", "hexagon", False),
+    ((35, 35, 45), "obsidian_guardian", 6, 0.35, 2500, 18000, 49, "all", "hexagon", False),
     ((190, 230, 255), "mirror_wisp", 3, 2.4, 1200, 2500, 50, "all", "diamond", False),
     ((230, 70, 15), "ember_colossus", 7, 0.45, 3000, 22000, 51, "all", "hexagon", False),
     ((120, 220, 255), "frost_weaver", 4, 1.0, 1800, 7000, 52, "all", "star", False),
@@ -3558,7 +3558,7 @@ ENEMY_TYPE_MAP = [
     ((160, 70, 255), "blink_stalker", 4, 2.7, 2200, 5000, 54, "all", "diamond", False),
     ((60, 130, 55), "thornback_beast", 5, 0.75, 2400, 13000, 55, "all", "pentagon", False),
     ((130, 70, 170), "swarm_queen", 4, 0.7, 2600, 12000, 56, "all", "hexagon", False),
-    ((230, 90, 255), "arcane_orb", 4, 1.8, 2500, 8000, 57, "[<65;63;9Mall", "circle", False),
+    ((230, 90, 255), "arcane_orb", 4, 1.8, 2500, 8000, 57, "all", "circle", False),
     ((120, 255, 40), "acid_spitter", 5, 1.1, 2600, 9000, 58, "all", "triangle", False),
     ((210, 210, 255), "siren_banshee", 3, 2.0, 2800, 6500, 59, "all", "star", False),
     ((70, 50, 110), "gravity_slug", 6, 0.25, 3200, 30000, 60, "all", "circle", False),
@@ -3567,7 +3567,7 @@ ENEMY_TYPE_MAP = [
     ((255, 230, 120), "celestial_drake", 8, 1.4, 5000, 36000, 63, "all", "hexagon", False),
     ((40, 0, 80), "shadow_priest", 4, 0.9, 4200, 10000, 64, "all", "pentagon", False),
     ((180, 60, 10), "lava_lurker", 7, 0.4, 4500, 25000, 65, "all", "hexagon", False),
-    ((200, 50, 200), "psy_fiend", 5, 1.6,[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M 4800, 12000, 66, "all", "diamond", False),
+    ((200, 50, 200), "psy_fiend", 5, 1.6, 4800, 12000, 66, "all", "diamond", False),
     ((80, 200, 240), "glacial_creep", 5, 0.2, 5000, 40000, 67, "all", "circle", False),
     ((200, 180, 120), "dust_devil", 4, 2.8, 5200, 8000, 68, "all", "star", False),
     ((200, 0, 40), "crimson_stalker", 5, 1.5, 5500, 15000, 69, "sniper_only", "diamond", False),
@@ -3576,7 +3576,7 @@ ENEMY_TYPE_MAP = [
     ((60, 120, 30), "plague_crawler", 5, 0.6, 6500, 35000, 72, "all", "hexagon", False),
     ((20, 0, 50), "void_colossus", 6, 0.3, 8000, 80000, 73, "sniper_only", "hexagon", False),
     # ── Shadow Storm enemies (waves 75–80) ────────────────────────────────────
-    ((90, 0, 140), "shadow[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M_wraith", 7, 2.4, 9000, 18000, 75, "sniper_only", "diamond", False),
+    ((90, 0, 140), "shadow_wraith", 7, 2.4, 9000, 18000, 75, "sniper_only", "diamond", False),
     ((30, 0, 60), "void_harbinger", 8, 1.8, 12000, 32000, 76, "all", "star", False),
     ((140, 60, 200), "umbral_stalker", 6, 2.0, 15000, 22000, 77, "sniper_only", "triangle", False),
     ((60, 20, 120), "abyssal_juggernaut", 12, 0.6, 20000, 90000, 78, "all", "hexagon", False),
@@ -3584,7 +3584,7 @@ ENEMY_TYPE_MAP = [
     ((20, 0, 30), "void_emperor", 15, 0.9, 40000, 150000, 80, "all", "circle", False),
     # ── New enemies ───────────────────────────────────────────────────────────
     ((220, 100, 60), "spike_hopper", 3, 3.5, 1500, 4000, 30, "all", "triangle", False),
-    ((240, 90, 40), "ember_wolf", 4, 2.6, 2200, 8000, 45, "all", "di[<65;63;9M[<65;63;9Mamond", False),
+    ((240, 90, 40), "ember_wolf", 4, 2.6, 2200, 8000, 45, "all", "diamond", False),
     ((160, 230, 255), "crystal_shard", 5, 1.4, 3000, 10000, 50, "all", "star", False),
     ((90, 140, 50), "blight_walker", 6, 0.4, 4000, 18000, 55, "all", "pentagon", False),
     ((100, 130, 255), "stormcaller", 4, 1.2, 3500, 12000, 60, "all", "star", False),
@@ -3593,7 +3593,7 @@ ENEMY_TYPE_MAP = [
     ((220, 60, 200), "cursed_jester", 3, 1.8, 1800, 6000, 35, "all", "square", True),
     ((140, 200, 90), "fungal_horror", 4, 0.9, 2500, 9000, 40, "all", "pentagon", False),
     ((210, 230, 255), "blade_dancer", 5, 3.0, 2800, 10000, 55, "all", "diamond", False),
-    ((90, 0, 130), "nether_imp", 2, 2.4, 800, [<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M1500, 28, "all", "triangle", False),
+    ((90, 0, 130), "nether_imp", 2, 2.4, 800, 1500, 28, "all", "triangle", False),
     ((25, 25, 35), "obsidian_titan", 12, 0.18, 10000, 70000, 70, "all", "hexagon", True),
     ((180, 40, 80), "blood_moth", 2, 4.0, 1200, 2000, 38, "all", "star", False),
     ((160, 150, 140), "ash_revenant", 5, 0.9, 3500, 13000, 60, "all", "pentagon", False),
@@ -3605,7 +3605,7 @@ BOSS_TYPE_MAP = [
     ((50, 0, 50), "boss_2", 15, 0.25, 5000, 10000, BOSS_RADIUS, "triangle"),
     ((100, 0, 0), "boss_3", 20, 0.20, 10000, 20000, BOSS_RADIUS, "diamond"),
     ((0, 0, 100), "boss_4", 25, 0.15, 30000, 50000, BOSS_RADIUS, "square"),
-    ((4, 0, 20), "boss_5", 30, 0.13, 50000, 100000, BOS[<65;63;9M[<65;63;9MS_RADIUS, "pentagon"),
+    ((4, 0, 20), "boss_5", 30, 0.13, 50000, 100000, BOSS_RADIUS, "pentagon"),
     ((0, 30, 80), "boss_6", 35, 0.15, 250000, 500000, BOSS_RADIUS, "hexagon"),
     ((80, 50, 0), "boss_7", 40, 0.22, 100000, 120000, BOSS_RADIUS, "star"),
     ((0, 80, 20), "boss_8", 28, 0.18, 150000, 200000, BOSS_RADIUS, "pentagon"),
@@ -3629,7 +3629,7 @@ def get_bestiary_stats(type_id):
     for color, tid, dmg, spd, reward_bonus, health_bonus, intro, vis, shape, targets_towers in ENEMY_TYPE_MAP:
         if tid == type_id:
             health = max(10, 30 + intro * 5 + health_bonus)
-[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M            return health, dmg, spd, enemy_ability_text(type_id)
+            return health, dmg, spd, enemy_ability_text(type_id)
     for color, tid, dmg, spd, reward, health, size, shape in BOSS_TYPE_MAP:
         if tid == type_id:
             return health, dmg, spd, enemy_ability_text(type_id)
@@ -3647,7 +3647,7 @@ def enemy_ability_text(type_id):
         "plague_rat": "Splits into 3 rats",
         "paladin": "Regenerates health",
         "vampire": "Dashes to towers and drains HP",
-        "fury_beast": "Speeds up [<65;63;9M[<65;63;9Mas health drops",
+        "fury_beast": "Speeds up as health drops",
         "plague_moth": "Heals enemies and releases rats",
         "phase_shifter": "Cycles invulnerability",
         "war_mammoth": "Damages nearby towers",
@@ -3663,7 +3663,7 @@ def enemy_ability_text(type_id):
         "shield_mender": "Heals nearby enemies",
         "blink_stalker": "Blinks forward",
         "thornback_beast": "Damage reduction",
-        "[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9Mswarm_queen": "Summons minions",
+        "swarm_queen": "Summons minions",
         "arcane_orb": "Cycles invulnerability",
         "acid_spitter": "Damages towers and walls nearby",
         "siren_banshee": "Speeds nearby enemies",
@@ -3691,7 +3691,7 @@ def spawn_enemy(wave):
     # Player-created custom enemies — spawn at their designated wave (priority chance)
     _matched_custom = [d for d in custom_enemies if d.get("wave", 1) == wave and not d.get("is_boss", False)]
     if _matched_custom and random.random() < 0.35:
-        _defn = random.choice(_matche[<65;63;9M[<65;63;9Md_custom)
+        _defn = random.choice(_matched_custom)
         _ce = spawn_custom_enemy_from_def(_defn)
         enemies.append(_ce)
         record_enemy_kill(_ce.type_id)
@@ -3711,7 +3711,7 @@ def spawn_enemy(wave):
         record_enemy_kill(tid)
         return
 
-    # Tower Raider (wave 30+, non-boss[<65;63;9M[<65;63;9M spawns only)
+    # Tower Raider (wave 30+, non-boss spawns only)
     if wave >= 30 and random.random() < 0.25:
         r_health = base_health * 2 + 500
         if nightmare_mode:
@@ -3731,7 +3731,7 @@ def spawn_enemy(wave):
     reward = base_reward + r_bonus
     # Tower-attackers get slightly less health
     if tgt_towers:
-        health = int(health * 0.[<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9M75)
+        health = int(health * 0.75)
     # Blood Storm: all enemies are 2x health, 5x reward
     if blood_storm_active:
         health = int(health * 2)
@@ -3749,7 +3749,7 @@ def spawn_enemy(wave):
     e.targets_towers = tgt_towers
     e.is_summoner = tid in ("necromancer", "swarm_queen")
     e.plague_rat = tid == "plague_rat"
-    e[<65;63;9M[<65;63;9M.is_vampire = tid == "vampire"
+    e.is_vampire = tid == "vampire"
     e.abomination = tid == "abomination"
     e.fury_beast = tid == "fury_beast"
     e.blood_spawn = tid == "blood_spawn"
@@ -3766,7 +3766,7 @@ def spawn_enemy(wave):
         e.vampire_saved_idx = 0
         e.vampire_hit_timer = 0
     # ── New-enemy ability fields ───────────────────────────────────────────────
-    e.damage_reduction = 0.6 if tid == "obsidian_guardian" [<65;63;9M[<65;63;9M[<65;63;9M[<65;63;9Melse 0.45 if tid == "thornback_beast" else 0.5 if tid == "doom_knight" else 0.75 if tid == "dreadnought" else 0.0
+    e.damage_reduction = 0.6 if tid == "obsidian_guardian" else 0.45 if tid == "thornback_beast" else 0.5 if tid == "doom_knight" else 0.75 if tid == "dreadnought" else 0.0
     e.phase_timer = 0
     e.phase_immune = False
     e.war_tremor_timer = 0
@@ -3836,7 +3836,7 @@ def draw_bestiary(in_arena=False):
     tab_rects = {}
     for i, (tid, tlabel) in enumerate([("enemies", "Enemies"), ("bosses", "Bosses")]):
         tr = pygame.Rect(px + 16 + i * 110, py + 38, 100, 26)
-   [<65;63;9M[<65;63;9M     col = (60, 60, 180) if bestiary_tab == tid else (40, 40, 80)
+        col = (60, 60, 180) if bestiary_tab == tid else (40, 40, 80)
         pygame.draw.rect(screen, col, tr)
         pygame.draw.rect(screen, (100, 100, 200), tr, 1)
         screen.blit(font_shop_sm.render(tlabel, True, WHITE), (tr.x + 12, tr.y + 4))
